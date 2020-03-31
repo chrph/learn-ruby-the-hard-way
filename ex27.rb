@@ -39,6 +39,8 @@ truth_table = {
     "0 == 0":"true",
 }
 
+
+
 puts "TRUTH TERM QUIZ"
 truth_terms.each do | k, v |
     puts "Term: #{k}"
@@ -48,6 +50,7 @@ truth_terms.each do | k, v |
     puts " "
 end
 
+
 puts "TRUTH TABLE QUIZ"
 truth_table.each do | k, v |
     puts "Expression: #{k}"
@@ -56,6 +59,9 @@ truth_table.each do | k, v |
     puts "WRONG" if table_a != v
     puts " "
 end
+
+
+
 puts "DONE!"
 
 
