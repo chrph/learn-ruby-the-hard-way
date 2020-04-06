@@ -39,6 +39,7 @@ end
 
 2. Why does the code under the if need to be indented two spaces?
     For aesthetics and easy reading. To show that the code is part of the if statement.
+    To show that it is a block of code.
 
 3. What happens if it isn't indented?
     The code still executes but it's harder to read.

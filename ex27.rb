@@ -39,8 +39,6 @@ truth_table = {
     "0 == 0":"true",
 }
 
-
-
 puts "TRUTH TERM QUIZ"
 truth_terms.each do | k, v |
     puts "Term: #{k}"
