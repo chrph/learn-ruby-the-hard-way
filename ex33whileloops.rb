@@ -1,5 +1,5 @@
 
-
+=begin
 def lessThanSix(i,n, x)
     numbers = []
 # while i is less than 6, print this string to the console
@@ -21,13 +21,20 @@ def lessThanSix(i,n, x)
     puts "The numbers: "
     numbers.each { |num| puts num }
 end
+=end
 
+numbers = []
+(0..6).each do |n| 
+    numbers.push(n)
+end
+puts numbers
+
+=begin
 i = 5
 n = 50
 x = 5
 lessThanSix(i,n,x)
-# when the while loop equals false and ends, print the numbers
-
+=end
 
 # remember you can write this 2 other ways?
 # for each element in numbers array print the element on a new line
