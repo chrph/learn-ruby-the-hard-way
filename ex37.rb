@@ -90,6 +90,20 @@ until x < 0 #until x is less than zero
     x -= 1
 end
 
+puts "# STRING ESCAPE SEQUENCES"
+puts """
+\\I\'m a blackslash.
+\I\'m a single quote.
+That says \"go\".
+What is a \aBELL.
+\tI\'m tabbed in. \bNow I\'m backspace.
+\fFormfeed thing.
+\nNewline
+\rCarriage return
+\vVertical tab \vAnd again \vAnd again again!
+"""
+
+
 
 
 
