@@ -5,7 +5,7 @@ class Song
     end
 
     def sing_me_a_song()
-        @lyrics
+        @lyrics.each { |line| puts line }
     end
 end
 
