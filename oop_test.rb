@@ -7,7 +7,7 @@ WORDS = []
 PHRASES = {
     "class ### < ###\nend" =>
         "Make a class named ### that is-a ###.",
-    "class ###\n\tdef initalize(@@@)\n\tend\nend" =>
+    "class ###\n\tdef initialize(@@@)\n\tend\nend" =>
         "class ### has-a initialize that takes @@@ parameters.",
     "class ###\n\tdef ***(@@@)\n\tend\nend" => 
         "class ### has-a function named *** that takes a @@@ parameters.",
