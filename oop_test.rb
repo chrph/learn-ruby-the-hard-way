@@ -21,7 +21,7 @@ PHRASES = {
 
 PHRASE_FIRST = ARGV[0] == "english"
 
-open(WORD_URL) {|f| 
+::OpenURI.open_uri (WORD_URL) {|f| 
     f.each_line {|word| WORDS.push(word.chomp)}
 }
 
