@@ -26,9 +26,6 @@ For each attribute, give the class this attribute is.
             default_headers
     File
         join
-                
-
-
 
 =end
 
